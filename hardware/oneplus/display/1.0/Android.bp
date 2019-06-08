@@ -1,0 +1,12 @@
+hidl_interface {
+    name: "vendor.aoscp.hardware.oneplus.display@1.0",
+    root: "vendor.aoscp",
+    srcs: [
+        "IOneplusDisplay.hal",
+    ],
+    interfaces: [
+        "android.hidl.base@1.0",
+    ],
+    gen_java: true,
+}
+
